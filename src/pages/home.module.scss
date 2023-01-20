@@ -1,0 +1,32 @@
+.container {
+  padding: 0 20%;
+  font-family: 'Inter';
+
+  .loadMore {
+    background: transparent;
+    border: none;
+    color: var(--pink-800);
+  }
+}
+.post {
+  position: relative;
+  margin-top: 48px;
+  h1 {
+    color: #fff;
+  }
+  p {
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+  }
+  footer {
+    color: var(--gray-200);
+    margin-top: 25px;
+
+    span:last-child {
+      margin-left: 32px;
+    }
+    font-size: 14px;
+  }
+}

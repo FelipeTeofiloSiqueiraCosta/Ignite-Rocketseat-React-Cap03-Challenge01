@@ -1,0 +1,48 @@
+.container {
+  padding: 0 20%;
+  font-family: 'Inter';
+  margin-top: 80px;
+  h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+
+    letter-spacing: -0.5px;
+
+    /* Heading */
+
+    color: #f8f8f8;
+  }
+}
+.banner {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  img {
+    width: 100%;
+    position: relative;
+    object-fit: contain;
+    height: 100%;
+  }
+}
+.info {
+  display: flex;
+  margin-top: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  & span:nth-child(2) {
+    margin: 0 2%;
+  }
+}
+.contentPost {
+  margin-top: 20px;
+  &:last-child {
+    margin-bottom: 30px;
+  }
+}

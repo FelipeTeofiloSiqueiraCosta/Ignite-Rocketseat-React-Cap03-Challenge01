@@ -1,0 +1,20 @@
+.header {
+  ul {
+    list-style: none;
+    padding: 50px 20%;
+    li {
+      a {
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        p {
+          color: white;
+          margin-left: 16px;
+          span {
+            color: var(--pink-800);
+          }
+        }
+      }
+    }
+  }
+}
